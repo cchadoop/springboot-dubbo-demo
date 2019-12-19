@@ -1,0 +1,10 @@
+spring:
+  dubbo:
+    application:
+      name: dubbo-web
+    registry:
+      address:  zookeeper://localhost #zookeeper地址
+      port: 2181
+    scan: com.smart.spring.dubbo.consumer.controller
+server:
+  port: 8082
